@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Centered Page</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Poppins', sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            height: 60vh;
+            width: 60%;
+            max-width: 600px;
+            text-align: center;
+        }
+        .photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .text {
+            margin: 0 20px;
+            text-align: left;
+        }
+        .links {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+        .links a {
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="photo">
+            <img src="#" alt="Photo">
+        </div>
+        <div class="text">
+        <h1>Some Name Here</h1>
+        </div>
+        <div class="text">
+            <p>TText goes hereText goes hereText goes hereText goes hereText goes hereText goes hereText goes hereText goes hereText goes hereText goes hereText goes hereText goes hereText goes hereText goes hereText goes hereText goes hereText goes hereText goes hereText goes hereText goes hereext goes here</p>
+        </div>
+        <div class="links">
+            <a href="#">LinkedIn</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+    </div>
+</body>
+</html>
